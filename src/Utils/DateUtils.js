@@ -1,5 +1,5 @@
 
-const targetDate = new Date('2025-11-06')
+const targetDate = new Date('2025-11-06 12:00:00 am')
 
 const dateDiffFromCurrentDate = () => {
     const currentDate = new Date()
