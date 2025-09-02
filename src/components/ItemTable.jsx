@@ -16,7 +16,7 @@ const ItemTable = ({ items }) => {
         <tbody className="bg-white divide-y divide-gray-200">
           {items.map((item) => (
             <tr>
-              <td className="px-6 py-4 text-sm text-gray-900 whitespace-nowrap">{item.id + 1}</td>
+              <td className="px-6 py-4 text-sm text-gray-900 whitespace-nowrap text-left">{item.id + 1}</td>
               <td className="px-6 py-4 text-sm text-gray-900 whitespace-nowrap text-left">{item.name}</td>
               <td className="px-6 py-4 text-sm text-gray-900 whitespace-nowrap text-left">{item.quantity}</td>
               <td className="px-6 py-4 text-sm text-gray-900 whitespace-nowrap"><StatusChip status={item.status}/></td>
